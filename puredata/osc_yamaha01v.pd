@@ -1,165 +1,232 @@
-#N canvas 28 275 1124 667 10;
+#N canvas 358 167 1124 667 10;
 #X obj 23 50 OSCroute /1 /2 /3 /4;
-#N canvas 155 132 1125 699 simple-page1 1;
+#N canvas 0 28 1680 849 simple-page1 1;
 #X obj 105 148 vsl 30 128 0 127 0 0 empty empty empty 0 -9 0 10 -257985
--1 -1 0 1;
+-1 -1 2867 1;
 #X obj 143 148 vsl 30 128 0 127 0 0 empty empty empty 0 -9 0 10 -257985
--1 -1 0 1;
+-1 -1 9672 1;
 #X obj 181 148 vsl 30 128 0 127 0 0 empty empty empty 0 -9 0 10 -257985
--1 -1 2947 1;
-#X obj 218 148 vsl 30 128 0 127 0 0 empty empty empty 0 -9 0 10 -257985
--1 -1 0 1;
+-1 -1 4662 1;
+#X obj 218 149 vsl 30 128 0 127 0 0 empty empty empty 0 -9 0 10 -257985
+-1 -1 8627 1;
 #X obj 106 290 tgl 30 0 empty empty empty 17 7 0 10 -4032 -1 -1 0 1
 ;
 #X obj 144 290 tgl 30 0 empty empty empty 17 7 0 10 -4032 -1 -1 0 1
 ;
 #X obj 180 290 tgl 30 0 empty empty empty 17 7 0 10 -4032 -1 -1 0 1
 ;
-#X obj 217 290 tgl 30 0 empty empty empty 17 7 0 10 -4032 -1 -1 1 1
+#X obj 217 290 tgl 30 0 empty empty empty 17 7 0 10 -4032 -1 -1 0 1
 ;
-#X obj 37 30 OSCroute /fader1 /fader2 /fader3 /fader4 /fader5 /toggle1
-/toggle2 /toggle3 /toggle4;
-#X obj 107 106 hsl 140 30 0 127 0 0 empty empty empty -2 -8 0 10 -4032
--1 -1 13900 1;
 #X obj 36 6 r page-1;
 #X obj 38 73 * 127;
 #X obj 78 73 * 127;
 #X obj 118 73 * 127;
 #X obj 159 73 * 127;
 #X obj 202 73 * 127;
-#X obj -15 151 ctlout 4;
-#X obj 124 404 * 127;
-#X obj 305 405 * 127;
-#X obj 185 404 * 127;
-#X obj 244 404 * 127;
+#X obj 102 404 * 127;
+#X obj 283 405 * 127;
+#X obj 163 404 * 127;
+#X obj 222 404 * 127;
 #X obj -24 281 ctlout 1;
-#X obj -31 334 ctlout 2;
-#X obj -30 401 ctlout 3;
-#X obj 1 452 ctlout 4;
-#X obj 124 436 ctlout 28;
-#X obj 185 436 ctlout 29;
-#X obj 244 436 ctlout 30;
-#X obj 305 436 ctlout 31;
-#X floatatom 488 69 3 0 0 0 - - -;
-#X obj 444 43 ctlin 1;
-#X obj 542 152 vsl 30 128 0 127 0 0 empty empty empty 0 -9 0 10 -257985
+#X obj -25 314 ctlout 2;
+#X obj -25 346 ctlout 3;
+#X obj -24 377 ctlout 4;
+#X obj 94 436 ctlout 28;
+#X obj 163 437 ctlout 29;
+#X obj 230 436 ctlout 30;
+#X obj 299 437 ctlout 31;
+#X floatatom 605 78 3 0 0 0 - - -;
+#X obj 561 52 ctlin 1;
+#X obj 659 161 vsl 30 128 0 127 0 0 empty empty empty 0 -9 0 10 -257985
+-1 -1 1300 1;
+#X obj 697 161 vsl 30 128 0 127 0 0 empty empty empty 0 -9 0 10 -257985
 -1 -1 0 1;
-#X obj 580 152 vsl 30 128 0 127 0 0 empty empty empty 0 -9 0 10 -257985
+#X obj 735 161 vsl 30 128 0 127 0 0 empty empty empty 0 -9 0 10 -257985
 -1 -1 0 1;
-#X obj 618 152 vsl 30 128 0 127 0 0 empty empty empty 0 -9 0 10 -257985
--1 -1 2900 1;
-#X obj 655 152 vsl 30 128 0 127 0 0 empty empty empty 0 -9 0 10 -257985
+#X obj 772 161 vsl 30 128 0 127 0 0 empty empty empty 0 -9 0 10 -257985
 -1 -1 0 1;
-#X obj 543 294 tgl 30 0 empty empty empty 17 7 0 10 -4032 -1 -1 0 127
+#X obj 660 303 tgl 30 0 empty empty empty 17 7 0 10 -4032 -1 -1 0 127
 ;
-#X obj 581 294 tgl 30 0 empty empty empty 17 7 0 10 -4032 -1 -1 0 127
+#X obj 698 303 tgl 30 0 empty empty empty 17 7 0 10 -4032 -1 -1 0 127
 ;
-#X obj 617 294 tgl 30 0 empty empty empty 17 7 0 10 -4032 -1 -1 0 127
+#X obj 734 303 tgl 30 0 empty empty empty 17 7 0 10 -4032 -1 -1 0 127
 ;
-#X obj 654 294 tgl 30 0 empty empty empty 17 7 0 10 -4032 -1 -1 127
-127;
-#X floatatom 546 69 3 0 0 0 - - -;
-#X obj 504 44 ctlin 2;
-#X floatatom 602 68 3 0 0 0 - - -;
-#X floatatom 665 67 3 0 0 0 - - -;
-#X floatatom 773 133 3 0 0 0 - - -;
-#X floatatom 772 186 3 0 0 0 - - -;
-#X floatatom 768 243 3 0 0 0 - - -;
-#X floatatom 770 301 3 0 0 0 - - -;
-#X obj 560 43 ctlin 3;
-#X obj 623 42 ctlin 4;
-#X obj 731 108 ctlin 28;
-#X obj 730 161 ctlin 29;
-#X obj 726 218 ctlin 30;
-#X obj 728 276 ctlin 31;
-#X obj 471 544 sendOSC;
-#X msg 280 489 connect 10.42.3.130 9000;
-#X obj 400 270 / 127;
-#X obj 721 390 / 127;
-#X obj 806 390 / 127;
-#X obj 765 390 / 127;
-#X msg 388 346 send /1/fader1 \$1;
-#X msg 466 375 send /1/fader2 \$1;
-#X msg 527 404 send /1/fader3 \$1;
-#X msg 585 430 send /1/fader4 \$1;
-#X msg 757 470 send /1/toggle2 \$1;
-#X obj 599 368 / 127;
-#X obj 463 310 / 127;
-#X obj 679 389 / 127;
-#X obj 530 339 / 127;
-#X msg 695 445 send /1/toggle1 \$1;
-#X msg 801 496 send /1/toggle3 \$1;
-#X msg 857 521 send /1/toggle4 \$1;
-#X connect 0 0 21 0;
-#X connect 1 0 22 0;
-#X connect 2 0 23 0;
-#X connect 3 0 24 0;
-#X connect 4 0 17 0;
-#X connect 5 0 19 0;
-#X connect 6 0 20 0;
-#X connect 7 0 18 0;
-#X connect 8 0 11 0;
-#X connect 8 1 12 0;
-#X connect 8 2 13 0;
-#X connect 8 3 14 0;
-#X connect 8 4 15 0;
-#X connect 8 5 4 0;
-#X connect 8 6 5 0;
-#X connect 8 7 6 0;
-#X connect 8 8 7 0;
-#X connect 9 0 16 0;
-#X connect 10 0 8 0;
-#X connect 11 0 0 0;
-#X connect 12 0 1 0;
-#X connect 13 0 2 0;
-#X connect 14 0 3 0;
-#X connect 15 0 9 0;
-#X connect 17 0 25 0;
-#X connect 18 0 28 0;
-#X connect 19 0 26 0;
-#X connect 20 0 27 0;
-#X connect 30 0 31 0;
-#X connect 30 1 29 0;
-#X connect 31 0 55 0;
-#X connect 32 0 65 0;
-#X connect 33 0 67 0;
-#X connect 34 0 64 0;
-#X connect 35 0 66 0;
-#X connect 36 0 56 0;
-#X connect 37 0 58 0;
-#X connect 38 0 57 0;
-#X connect 40 0 32 0;
-#X connect 40 1 39 0;
+#X obj 771 303 tgl 30 0 empty empty empty 17 7 0 10 -4032 -1 -1 0 127
+;
+#X floatatom 663 78 3 0 0 0 - - -;
+#X obj 621 53 ctlin 2;
+#X floatatom 719 77 3 0 0 0 - - -;
+#X floatatom 782 76 3 0 0 0 - - -;
+#X floatatom 1025 67 3 0 0 0 - - -;
+#X floatatom 1024 120 3 0 0 0 - - -;
+#X floatatom 1020 177 3 0 0 0 - - -;
+#X floatatom 1022 235 3 0 0 0 - - -;
+#X obj 677 52 ctlin 3;
+#X obj 740 51 ctlin 4;
+#X obj 983 42 ctlin 28;
+#X obj 982 95 ctlin 29;
+#X obj 978 152 ctlin 30;
+#X obj 980 210 ctlin 31;
+#X obj 580 689 sendOSC;
+#X obj 591 191 / 127;
+#X obj 838 399 / 127;
+#X obj 923 399 / 127;
+#X obj 882 399 / 127;
+#X msg 455 234 send /1/fader1 \$1;
+#X msg 497 294 send /1/fader2 \$1;
+#X msg 536 353 send /1/fader3 \$1;
+#X msg 571 420 send /1/fader4 \$1;
+#X msg 874 479 send /1/toggle2 \$1;
+#X obj 592 383 / 127;
+#X obj 591 250 / 127;
+#X obj 796 398 / 127;
+#X obj 589 327 / 127;
+#X msg 812 454 send /1/toggle1 \$1;
+#X msg 918 505 send /1/toggle3 \$1;
+#X msg 974 530 send /1/toggle4 \$1;
+#X obj 810 162 vsl 30 128 0 127 0 0 empty empty empty 0 -9 0 10 -257985
+-1 -1 0 1;
+#X obj 809 304 tgl 30 0 empty empty empty 17 7 0 10 -4032 -1 -1 0 127
+;
+#X obj 851 162 vsl 30 128 0 127 0 0 empty empty empty 0 -9 0 10 -257985
+-1 -1 0 1;
+#X obj 850 304 tgl 30 0 empty empty empty 17 7 0 10 -4032 -1 -1 0 127
+;
+#X floatatom 1026 281 3 0 0 0 - - -;
+#X floatatom 1026 326 3 0 0 0 - - -;
+#X obj 980 255 ctlin 32;
+#X obj 981 301 ctlin 33;
+#X floatatom 839 75 3 0 0 0 - - -;
+#X floatatom 900 75 3 0 0 0 - - -;
+#X obj 1006 399 / 127;
+#X obj 965 399 / 127;
+#X msg 1022 556 send /1/toggle5 \$1;
+#X msg 1088 582 send /1/toggle6 \$1;
+#X obj 592 450 / 127;
+#X obj 597 513 / 127;
+#X msg 621 484 send /1/fader5 \$1;
+#X msg 596 542 send /1/fader6 \$1;
+#X obj 260 150 vsl 30 128 0 127 0 0 empty empty empty 0 -9 0 10 -257985
+-1 -1 3801 1;
+#X obj 259 291 tgl 30 0 empty empty empty 17 7 0 10 -4032 -1 -1 0 1
+;
+#X obj 300 150 vsl 30 128 0 127 0 0 empty empty empty 0 -9 0 10 -257985
+-1 -1 0 1;
+#X obj 299 291 tgl 30 0 empty empty empty 17 7 0 10 -4032 -1 -1 0 1
+;
+#X obj 245 72 * 127;
+#X obj 797 50 ctlin 5;
+#X obj 860 49 ctlin 6;
+#X floatatom 526 168 3 0 0 0 - - -;
+#X obj 37 30 OSCroute /fader1 /fader2 /fader3 /fader4 /fader5 /toggle1
+/toggle2 /toggle3 /toggle4 /fader6 /toggle5 /toggle6;
+#X obj 341 405 * 127;
+#X obj 398 405 * 127;
+#X obj 370 436 ctlout 32;
+#X obj 441 436 ctlout 33;
+#X obj -24 405 ctlout 5;
+#X obj -24 433 ctlout 6;
+#X msg 379 629 connect 255.255.0.0 9000;
+#X connect 0 0 18 0;
+#X connect 1 0 19 0;
+#X connect 2 0 20 0;
+#X connect 3 0 21 0;
+#X connect 4 0 14 0;
+#X connect 5 0 16 0;
+#X connect 6 0 17 0;
+#X connect 7 0 15 0;
+#X connect 8 0 93 0;
+#X connect 9 0 0 0;
+#X connect 10 0 1 0;
+#X connect 11 0 2 0;
+#X connect 12 0 3 0;
+#X connect 13 0 85 0;
+#X connect 14 0 22 0;
+#X connect 15 0 25 0;
+#X connect 16 0 23 0;
+#X connect 17 0 24 0;
+#X connect 27 0 28 0;
+#X connect 27 1 26 0;
+#X connect 28 0 51 0;
+#X connect 29 0 61 0;
+#X connect 30 0 63 0;
+#X connect 31 0 60 0;
+#X connect 32 0 62 0;
+#X connect 33 0 52 0;
+#X connect 34 0 54 0;
+#X connect 35 0 53 0;
+#X connect 37 0 29 0;
+#X connect 37 1 36 0;
+#X connect 44 0 30 0;
+#X connect 44 1 38 0;
+#X connect 45 0 31 0;
+#X connect 45 1 39 0;
+#X connect 46 0 32 0;
+#X connect 46 1 40 0;
 #X connect 47 0 33 0;
 #X connect 47 1 41 0;
 #X connect 48 0 34 0;
 #X connect 48 1 42 0;
 #X connect 49 0 35 0;
 #X connect 49 1 43 0;
-#X connect 50 0 36 0;
-#X connect 50 1 44 0;
-#X connect 51 0 37 0;
-#X connect 51 1 45 0;
-#X connect 52 0 38 0;
-#X connect 52 1 46 0;
-#X connect 54 0 53 0;
-#X connect 55 0 59 0;
-#X connect 56 0 63 0;
-#X connect 57 0 70 0;
-#X connect 58 0 69 0;
-#X connect 59 0 53 0;
-#X connect 60 0 53 0;
-#X connect 61 0 53 0;
-#X connect 62 0 53 0;
-#X connect 63 0 53 0;
-#X connect 64 0 62 0;
-#X connect 65 0 60 0;
-#X connect 66 0 68 0;
-#X connect 67 0 61 0;
-#X connect 68 0 53 0;
-#X connect 69 0 53 0;
-#X connect 70 0 53 0;
-#X coords 0 -1 1 1 155 230 2 100 100;
+#X connect 51 0 55 0;
+#X connect 51 0 92 0;
+#X connect 52 0 59 0;
+#X connect 53 0 66 0;
+#X connect 54 0 65 0;
+#X connect 55 0 50 0;
+#X connect 56 0 50 0;
+#X connect 57 0 50 0;
+#X connect 58 0 50 0;
+#X connect 59 0 50 0;
+#X connect 60 0 58 0;
+#X connect 61 0 56 0;
+#X connect 62 0 64 0;
+#X connect 63 0 57 0;
+#X connect 64 0 50 0;
+#X connect 65 0 50 0;
+#X connect 66 0 50 0;
+#X connect 67 0 81 0;
+#X connect 68 0 78 0;
+#X connect 69 0 82 0;
+#X connect 70 0 77 0;
+#X connect 73 0 68 0;
+#X connect 73 1 71 0;
+#X connect 74 0 70 0;
+#X connect 74 1 72 0;
+#X connect 77 0 80 0;
+#X connect 78 0 79 0;
+#X connect 79 0 50 0;
+#X connect 80 0 50 0;
+#X connect 81 0 83 0;
+#X connect 82 0 84 0;
+#X connect 83 0 50 0;
+#X connect 84 0 50 0;
+#X connect 85 0 98 0;
+#X connect 86 0 94 0;
+#X connect 87 0 99 0;
+#X connect 88 0 95 0;
+#X connect 89 0 87 0;
+#X connect 90 0 67 0;
+#X connect 90 1 75 0;
+#X connect 91 0 69 0;
+#X connect 91 1 76 0;
+#X connect 93 0 9 0;
+#X connect 93 1 10 0;
+#X connect 93 2 11 0;
+#X connect 93 3 12 0;
+#X connect 93 4 13 0;
+#X connect 93 5 4 0;
+#X connect 93 6 5 0;
+#X connect 93 7 6 0;
+#X connect 93 8 7 0;
+#X connect 93 9 89 0;
+#X connect 93 10 86 0;
+#X connect 93 11 88 0;
+#X connect 94 0 96 0;
+#X connect 95 0 97 0;
+#X connect 100 0 50 0;
+#X coords 0 -1 1 1 255 230 1 100 100;
 #X restore 24 164 pd simple-page1;
 #N canvas 404 39 395 758 simple-page-2 0;
 #X obj 33 54 OSCroute /push1 /push2 /push3 /push4 /push5 /push6 /push7
@@ -308,7 +375,7 @@
 #X connect 44 0 60 0;
 #X connect 45 0 61 0;
 #X coords 0 -1 1 1 166 208 2 25 215;
-#X restore 202 164 pd simple-page-2;
+#X restore 355 166 pd simple-page-2;
 #N canvas 160 87 362 612 simple-page-3 0;
 #X obj 29 49 OSCroute /xy /toggle1 /toggle2 /toggle3 /toggle4;
 #X obj 29 81 unpack 0.1 0.1;
@@ -324,7 +391,7 @@
 ;
 #X obj 148 423 tgl 30 0 empty empty empty 17 7 0 10 -4032 -1 -1 0 1
 ;
-#X obj 29 206 grid grid1 200 0 200 200 0 200 0 1 1 10 10 485.768 249.775
+#X obj 29 206 grid grid1 200 0 200 200 0 200 0 1 1 10 10 579.712 227.052
 ;
 #X obj 29 16 r page-3;
 #X obj 30 487 / 200;
@@ -368,7 +435,7 @@
 #X connect 21 0 25 0;
 #X connect 22 0 24 0;
 #X coords 0 -1 1 1 220 260 2 20 200;
-#X restore 391 164 pd simple-page-3;
+#X restore 540 163 pd simple-page-3;
 #N canvas 159 25 740 812 simple-page-4 0;
 #X obj 18 43 OSCroute /multitoggle /toggle1 /toggle2 /toggle3 /toggle4
 ;
@@ -869,25 +936,28 @@
 #X connect 209 0 213 0;
 #X connect 210 0 214 0;
 #X coords 0 -1 1 1 170 215 2 10 305;
-#X restore 633 164 pd simple-page-4;
+#X restore 774 165 pd simple-page-4;
 #X obj 23 17 dumpOSC 8000;
-#X text 635 14 TouchOSC;
-#X text 636 29 http://hexler.net/touchosc;
 #X obj 23 83 s page-1;
 #X obj 52 100 s page-2;
 #X obj 81 117 s page-3;
 #X obj 110 134 s page-4;
-#X text 636 44 Simple-midi.pd;
 #X obj 463 519 sendOSC;
 #X text 561 523 Use osc address of control. OSC messages are constructed
 like this: /pagenumber/controlname;
 #X msg 500 485 send /1/fader1 1;
 #X msg 460 453 connect 10.42.3.130 9000;
-#X connect 0 0 8 0;
-#X connect 0 1 9 0;
-#X connect 0 2 10 0;
-#X connect 0 3 11 0;
+#X obj 232 52 print osc;
+#X text 564 51 Works with TouchOSC;
+#X text 562 37 Puredata File for controling a Yamaha 01v via OSC;
+#X text 223 29 Debug Output;
+#X text 438 429 Test Connection;
+#X connect 0 0 6 0;
+#X connect 0 1 7 0;
+#X connect 0 2 8 0;
+#X connect 0 3 9 0;
 #X connect 5 0 0 0;
-#X connect 15 0 13 0;
-#X connect 16 0 13 0;
+#X connect 5 0 14 0;
+#X connect 12 0 10 0;
+#X connect 13 0 10 0;
 #X coords 0 0 1 1 85 60 0;
